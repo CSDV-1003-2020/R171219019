@@ -14,7 +14,7 @@ int main()
   foo =&obj;
   bar=new rectangle(10,15);
   baz=new rectangle[2]{{2,3},{4,6}};
-
+ /*change*/
 cout<<"objs area:"<<obj.area()<<endl;
   cout<<"*foos area:"<<* foo->area()<<endl;
   cout<<"*bars area:"<<* bar->area()<<endl;
