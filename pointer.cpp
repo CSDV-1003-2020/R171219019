@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+#include<iostream>
+using namespace std;
+class rectangle
+{
+ int height ,width;
+        public:
+             rectangle(int x,int y):height(x),width(y){}
+             int area(void){ return height*width; }
+};
+
+
+||||||| merged common ancestors
+=======
 #include<iostream>
 using namespace std;
 class rectangle
@@ -27,3 +41,4 @@ cout<<"objs area:"<<obj.area()<<endl;
 }
 }
 
+>>>>>>> 8bce5fc320542ecb7f0c37cec2605761e4ab02cd
