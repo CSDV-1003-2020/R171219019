@@ -24,3 +24,14 @@ public:
         std::cout << "A::a=" << x.a;
     }
 };
+
+
+
+
+ int main()
+{
+    A a;
+    B b;
+    b.showA(a);
+    return 0;
+}
